@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "비비트리고딕_R";
+    src: url(/123RF_kkueez_R_TTF.ttf);
+    font-family: "비비트리나무체_B";
+    src: url(/123RF_kkueugo_B_TTF.ttf);
+    font-family: "AppleSDGothicNeoSB00";
+    src: url(/AppleSDGothicNeoSB.ttf);
+    font-family: "AppleSDGothicNeoL00";
+    src: url(/AppleSDGothicNeoL.ttf);
+    font-family: "AppleSDGothicNeoT00";
+    src: url(/AppleSDGothicNeoT.ttf);
+    font-family: "AppleSDGothicNeoH00";
+    src: url(/AppleSDGothicNeoH.ttf);
+    font-family: "AppleSDGothicNeoEB00";
+    src: url(/AppleSDGothicNeoEB.ttf);
+    font-family: "AppleSDGothicNeoUL00";
+    src: url(/AppleSDGothicNeoUL.ttf);
+}
+
+* {
+    margin: 0;
+}
+
+.banner {
+    width: 100%;
+    height: 159px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.16);
+}
+
+#e {
+    position: absolute;
+    width: 163.8px;
+    height: 32.4px;
+    left: 70px;
+    top: 42px;
+}
+
+.store {
+    font-family: "AppleSDGothicNeoH00";
+    font-size: 33px;
+    color: #63666a;
+    position: absolute;
+    left: 70px;
+    top: 86.5px;
+}
+
+.banner img {
+    width: 71px;
+    height: 105px;
+}
+
+
+.wrapper {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 921px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    justify-content: center;
+    align-items:center;
+    background-image: linear-gradient(to bottom, #6861f4, #b92ceb 38%, #ef09e4 63%, #f207e4);
+}
+.white {
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    top:17%;
+}
+.white2 {
+    position:absolute;
+    width:100%;
+    bottom:0;
+    height:250px;
+    background:white;
+    z-index:0;
+    animation-name:white-up2;
+    animation-duration:1s;
+    animation-delay:2s;
+    animation-fill-mode: forwards;
+}
+#r{
+    margin-right:341px;
+    
+}
+.img-wrap{
+    z-index:5;
+    position:relative;
+    color:#707070;
+    font-family: "AppleSDGothicNeoT00";
+    font-size:44px;
+    margin-top:200px;
+}
+.ms {
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  font-family: AppleSDGothicNeoEB00;
+  font-size: 66px;
+    color:white;
+    position:absolute;
+    top:6.1%;
+}
+.copyright {
+    z-index:6;
+    color: #707070;
+    position: absolute;
+    top:876px;
+    right:17px;
+    color: black;
+    text-align: right;
+    font-family: "AppleSDGothicNeoL00";
+    font-size: 13px;
+}

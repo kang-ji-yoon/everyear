@@ -1,0 +1,178 @@
+@font-face {
+    font-family: "비비트리고딕_R";
+    src: url(/123RF_kkueez_R_TTF.ttf);
+    font-family: "비비트리나무체_B";
+    src: url(/123RF_kkueugo_B_TTF.ttf);
+    font-family: "AppleSDGothicNeoSB00";
+    src: url(/AppleSDGothicNeoSB.ttf);
+    font-family: "AppleSDGothicNeoL00";
+    src: url(/AppleSDGothicNeoL.ttf);
+    font-family: "AppleSDGothicNeoT00";
+    src: url(/AppleSDGothicNeoT.ttf);
+    font-family: "AppleSDGothicNeoH00";
+    src: url(/AppleSDGothicNeoH.ttf);
+    font-family: "AppleSDGothicNeoEB00";
+    src: url(/AppleSDGothicNeoEB.ttf);
+    font-family: "AppleSDGothicNeoUL00";
+    src: url(/AppleSDGothicNeoUL.ttf);
+}
+*{
+    margin:0;
+}
+body{
+    background-color: #585858;
+}
+.subBanner{
+  top:20px;
+  left:30px;
+  width: 235px;
+  height: 115px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  z-index: 1;
+  position: absolute;
+ 
+}
+.banner{
+    width:100%;
+    height:159px;
+    background-color:#2a2a2a;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.16);
+    z-index: 0;
+    position: relative;
+}
+#e{
+    position:absolute;
+    width:163.8px;
+    height:32.4px;
+    left:28px;
+    top:24px;
+}
+.store{
+    font-family: "AppleSDGothicNeoH00";
+    font-size: 33px;
+    color: #63666a;
+    position:absolute;
+    left:25px;
+    top:55px;
+}
+.banner img{
+    width:71px;
+    height:105px;
+}
+.wrapper{
+    width:100%;
+    height:921px;
+    display:flex;
+    justify-content: center;
+    position:relative;
+    overflow:hidden;
+}
+.wave{
+    position:absolute;
+    left:0;
+    bottom:0;
+    
+}
+.copyright {
+    z-index: 6;
+    color: #ffffff;
+    position: absolute;
+    top: 1035px;
+    right: 17px;
+    text-align: right;
+    font-family: "AppleSDGothicNeoL00";
+    font-size: 13px;
+}
+.polar{
+    position:absolute;
+    width: 442.6px;
+  height: 359.6px;
+    top:-120px;
+    right:580px;
+}
+
+.account{
+    font-family: AppleSDGothicNeoEB00;
+  font-size: 66px;
+    position:absolute;
+    right:105.5px;
+    bottom:92.5px;
+}
+.ms{
+    font-family: AppleSDGothicNeoEB00;
+    font-size: 69px;
+    position:absolute;
+    right:70px;
+    bottom:300px;
+    color:white;
+    line-height: 1.43;
+    width:900px;
+    height:281px;
+    text-align: right;
+}
+.button{
+    font-family: AppleSDGothicNeoEB00;
+    font-size: 41px;
+    color: white;
+    position : absolute;
+    z-index: 2;
+    left:0px;
+}
+.button a{color:white;}
+.okay{
+width: 383px;
+  height: 123px;
+  border-radius: 62px;
+  border: solid 4px #ffffff; 
+  position: absolute;
+  margin-top:755px;
+  margin-left:50px; 
+}
+.goback{
+    width: 383px;
+  height: 123px;
+  border-radius: 62px;
+  border: solid 4px #ffffff;  
+  position: absolute; 
+  margin-top:755px;
+  margin-left:500px;
+}
+#okay{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px;
+
+}
+#goback{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px;
+}
+.okay:hover{
+      width: 383px;
+      height: 123px;
+      border-radius: 62px;
+      border: solid 4px #ffffff; 
+      position: absolute;
+      margin-top:755px;
+      margin-left:50px; 
+      background-color:#ffffff;
+      color:#dc08d2;
+    }
+.goback:hover{
+      width: 383px;
+      height: 123px;
+      border-radius: 62px;
+      border: solid 4px #ffffff;  
+      position: absolute; 
+      margin-top:755px;
+      margin-left:500px;
+      background-color:#ffffff;
+      color:#dc08d2;
+    }

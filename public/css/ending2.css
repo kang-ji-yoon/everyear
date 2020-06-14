@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "비비트리고딕_R";
+    src: url(/123RF_kkueez_R_TTF.ttf);
+    font-family: "비비트리나무체_B";
+    src: url(/123RF_kkueugo_B_TTF.ttf);
+    font-family: "AppleSDGothicNeoSB00";
+    src: url(/AppleSDGothicNeoSB.ttf);
+    font-family: "AppleSDGothicNeoL00";
+    src: url(/AppleSDGothicNeoL.ttf);
+    font-family: "AppleSDGothicNeoT00";
+    src: url(/AppleSDGothicNeoT.ttf);
+    font-family: "AppleSDGothicNeoH00";
+    src: url(/AppleSDGothicNeoH.ttf);
+    font-family: "AppleSDGothicNeoEB00";
+    src: url(/AppleSDGothicNeoEB.ttf);
+    font-family: "AppleSDGothicNeoUL00";
+    src: url(/AppleSDGothicNeoUL.ttf);
+}
+
+* {
+    margin: 0;
+}
+
+.banner {
+    width: 100%;
+    height: 159px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.16);
+}
+
+#e {
+    position: absolute;
+    width: 163.8px;
+    height: 32.4px;
+    left: 70px;
+    top: 42px;
+}
+
+.store {
+    font-family: "AppleSDGothicNeoH00";
+    font-size: 33px;
+    color: #63666a;
+    position: absolute;
+    left: 70px;
+    top: 86.5px;
+}
+
+.banner img {
+    width: 71px;
+    height: 105px;
+}
+
+.wrapper {
+    width: 100%;
+    height: 921px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    position: absolute;
+    background-image: linear-gradient(to bottom, #6861f4, #b92ceb 38%, #ef09e4 63%, #f207e4);
+}
+
+.white {
+    position: absolute;
+    height: 330px;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.ms1 {
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    font-family: AppleSDGothicNeoEB00;
+    font-size: 114px;
+    color:white;
+    position:absolute;
+    top:23.1%;
+}
+.ms2{
+    position:absolute;
+    color:white;
+    font-family: AppleSDGothicNeoUL00;
+  font-size: 53px;
+    top:39.7%;
+}
+.copyright {
+    z-index:6;
+    color: #707070;
+    position: absolute;
+    top:876px;
+    right:17px;
+    color: black;
+    text-align: right;
+    font-family: "AppleSDGothicNeoL00";
+    font-size: 13px;
+}

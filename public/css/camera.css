@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "비비트리고딕_R";
+    src: url(/123RF_kkueez_R_TTF.ttf);
+    font-family: "비비트리나무체_B";
+    src: url(/123RF_kkueugo_B_TTF.ttf);
+    font-family: "AppleSDGothicNeoSB00";
+    src: url(/AppleSDGothicNeoSB.ttf);
+    font-family: "AppleSDGothicNeoL00";
+    src: url(/AppleSDGothicNeoL.ttf);
+    font-family: "AppleSDGothicNeoT00";
+    src: url(/AppleSDGothicNeoT.ttf);
+    font-family: "AppleSDGothicNeoH00";
+    src: url(/AppleSDGothicNeoH.ttf);
+    font-family: "AppleSDGothicNeoEB00";
+    src: url(/AppleSDGothicNeoEB.ttf);
+}
+*{
+    margin:0;
+}
+.banner{
+    width:100%;
+    height:159px;
+    background-color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.16);
+}
+#e{
+    position:absolute;
+    width:163.8px;
+    height:32.4px;
+    left:70px;
+    top:42px;
+}
+.store{
+    font-family: "AppleSDGothicNeoH00";
+    font-size: 33px;
+    color: #63666a;
+    position:absolute;
+    left:70px;
+    top:86.5px;
+}
+.banner img{
+    width:71px;
+    height:105px;
+}
+.wrapper{
+    width:100%;
+    height:921px;
+    background: url(/public/images/cart.png) no-repeat center fixed;
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    position:relative;
+    overflow:hidden;
+}
+.wave{
+    position:absolute;
+    left:0;
+    bottom:0;
+}
+.circle{
+    position:absolute;
+    width: 340.6px;
+  height: 383.6px;
+    right:-100px;
+    bottom:-100px;
+}
+.polar{
+    position:absolute;
+    width: 442.6px;
+  height: 359.6px;
+    top:-120px;
+    right:580px;
+}
+.blue{
+    width:100%;
+    height:921px;
+    opacity: 0.68;
+  background-color: #842aea;
+    position:absolute;
+}
+.camera{
+    width:645px;
+    height:645px;
+    background:white;
+    z-index:3;
+    position:absolute;
+    left:201px;
+    top:112px;
+    border-radius:30px;
+    font-family: AppleSDGothicNeoEB00;
+  font-size: 93px;
+text-align:center;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+.ms{
+    color:white;
+    z-index:5;
+    text-shadow: 7px 9px 11px rgba(0, 0, 0, 0.16);
+  font-family: AppleSDGothicNeoEB00;
+  font-size: 93px;
+    position:absolute;
+    right:181px;
+    top:185px;
+    width:670px;
+}
+.ms p{
+    float:right;
+}
+.booth{
+    z-index:200;
+}

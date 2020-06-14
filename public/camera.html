@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <title>HEARING</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/public/css/camera.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/public/delay3.js"></script>
+</head>
+
+<body>
+   <div class="banner"><p class="store">안산 디미고점</p><img id="e" src="/public/images/emart.png"><img src="/public/images/Logo.png"></div>
+    <div class="wrapper">
+    <div class="blue"></div>
+    <img src="/public/images/wave.png" class="wave">
+    <img src="/public/images/circle.png" class="circle">
+    <img src="/public/images/polar.png" class="polar">
+    <div class="camera" id="pic"><div>준비중</div></div>
+    <div class="ms">
+        <p>안녕하세요 고객님</p>
+        <p>카메라를 통해서</p>
+        <p>구매하신 제품을</p>
+        <p>인식시켜 주세요.</p>
+    </div>
+    </div>
+    <script>
+    (function() {
+
+  var canvas = document.getElementById('canvas'),
+  context = canvas.getContext('2d'),
+  video = document.getElementById('video'),
+  vendorUrl = window.URL || window.webkitURL;
+
+  navigator.getMedia =  navigator.getUserMedia ||
+  navigator.webkitGetUserMedia ||
+  navigator.mozGetuserMedia ||
+  navigator.msGetUserMedia;
+
+  navigator.getMedia({
+    video: true,
+    audio: false
+  }, function(stream) {
+    video.src = vendorUrl.createObjectURL(stream);
+    video.play();
+  }, function(error) {
+    // an error occurred
+  } );
+
+  video.addEventListener('play', function() {
+    draw( this, context, 1024, 768 );
+  }, false );
+
+  function draw( video, context, width, height ) {
+    var image, data, i, r, g, b, brightness;
+
+    context.drawImage( video, 0, 0, width, height );
+
+    image = context.getImageData( 0, 0, width, height );
+    data = image.data;
+
+    for( i = 0 ; i < data.length ; i += 4 ) {
+      r = data[i];
+      g = data[i + 1];
+      b = data[i + 2];
+      brightness = ( r + g + b ) / 3;
+
+      data[i] = data[i + 1] = data[i + 2] = brightness;
+    }
+
+    image.data = data;
+
+    context.putImageData( image, 0, 0 );
+
+    setTimeout( draw, 10, video, context, width, height );
+  }
+
+} )();
+</script>
+    </body>
+
+</html>

@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "비비트리고딕_R";
+    src: url(/123RF_kkueez_R_TTF.ttf);
+    font-family: "비비트리나무체_B";
+    src: url(/123RF_kkueugo_B_TTF.ttf);
+    font-family: "AppleSDGothicNeoSB00";
+    src: url(/AppleSDGothicNeoSB.ttf);
+    font-family: "AppleSDGothicNeoL00";
+    src: url(/AppleSDGothicNeoL.ttf);
+    font-family: "AppleSDGothicNeoT00";
+    src: url(/AppleSDGothicNeoT.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 1080px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    justify-content: center;
+    align-items:center;
+}
+
+.purple {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 730px;
+    background-image: linear-gradient(to bottom, #6861f4, #b92ceb 38%, #ef09e4 63%, #f207e4);
+    z-index: -2;
+}
+
+.white {
+    position: absolute;
+    height: 520px;
+    bottom: 380px;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.white2 {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 380px;
+    background: white;
+    z-index: 0;
+}
+
+.logo {
+    z-index: 1;
+    position: absolute;
+    top: 40px;
+}
+
+.logo img {
+    width: 174px;
+    height: 174px;
+}
+
+.copyright {
+    z-index: 6;
+    color: #707070;
+    position: absolute;
+    bottom: 12px;
+    right: 17px;
+    color: black;
+    text-align: right;
+    font-family: "AppleSDGothicNeoL00";
+    font-size: 13px;
+}
+
+
+#r{
+    margin-right:341px;
+}
+
+.img-wrap{
+    z-index:5;
+    position:relative;
+    color:#707070;
+    font-family: "AppleSDGothicNeoT00";
+    font-size:44px;
+    margin-top:200px;
+}
+.admin{
+    position:absolute;
+    left:138px;
+}
+.user{
+    position:absolute;
+    right:155px;
+}
